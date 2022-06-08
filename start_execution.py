@@ -6,7 +6,7 @@ import test2
 
 
 # seed = random.randrange(sys.maxsize)
-# file = open("seed.txt" , "r")
+# file = open("seed.txt" , "w")
 # file.write(str(seed))
 
 if gs.rerun:
