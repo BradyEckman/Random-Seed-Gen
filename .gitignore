@@ -2,3 +2,5 @@
 /workspace.xml
 
 \venv
+__pycache__/
+.idea/misc.xml
