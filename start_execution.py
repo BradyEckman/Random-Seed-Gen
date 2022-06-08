@@ -12,8 +12,8 @@ import test2
 if gs.rerun:
     file = open("seed.txt")
     lines = file.read().splitlines()[0]
-    print(lines)
-    random.seed(lines)
+    seed = int(lines)
+    random.seed(seed)
 else:
     new_seed = random.randrange(sys.maxsize)
     file = open("seed.txt", "w")
